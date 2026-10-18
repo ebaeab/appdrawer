@@ -522,3 +522,8 @@ cargo build --release                 # 0 警告（无 dead_code / unused）
 > Windows 专属的 Win32 调用（`FindWindowW` / `SetWindowPos` / `GetConsoleProcessList` …）
 > 在 Linux 主机上无法执行，只能用临时 crate 把它们拆出来做类型检查；
 > 所有失败路径都设计成**静默降级**（不拖动 / 不隐藏 / 不无边框），不会崩溃或动错窗口。
+
+## License
+
+[MIT](LICENSE) © 2026 ebaeab
+
